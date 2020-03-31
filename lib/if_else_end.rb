@@ -1,3 +1,10 @@
 time = Time.now.to_i 
 
-if time.
+if time.even? 
+  puts "Even!"
+else 
+  puts 
+  "Odd!"
+end 
+
+
