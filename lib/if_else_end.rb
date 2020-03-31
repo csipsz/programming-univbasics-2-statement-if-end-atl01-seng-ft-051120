@@ -1,10 +1,9 @@
 time = Time.now.to_i 
 
-if time.even? == true
+if time.even?
   puts "Even!"
 else 
-  puts 
-  "Odd!"
+  puts "Odd!"
 end 
 
 
